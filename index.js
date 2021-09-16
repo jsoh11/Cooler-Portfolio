@@ -11,4 +11,8 @@ contact.addEventListener('click', () => {
 
 cancelBtn.addEventListener('click', () => {
     modal.classList.remove('is-active');
-})
+});
+
+deleteBtn.addEventListener('click', () => {
+    modal.classList.remove('is-active');
+});
